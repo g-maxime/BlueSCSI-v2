@@ -9,7 +9,7 @@
 set -e # fail on any error
 
 if [[ "${#}" -lt 1 ]] ; then
-    echo "Usage: ${0} version [|dev|rel]"
+    echo "Usage: ${0} version [dev|rel]"
     exit 1
 fi
 

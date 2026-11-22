@@ -536,7 +536,7 @@ void scsiInitiatorMainLoop()
                 }
             }
 
-            uint64_t total_bytes = 0;
+            total_bytes = 0;
 
             if(g_initiator_state.device_type != SCSI_DEVICE_TYPE_SEQUENTIAL){//ReadCapacity is not a valid SEQUENCIAL command
 
